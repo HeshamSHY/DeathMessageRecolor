@@ -1,0 +1,11 @@
+# Death Message Recolor configuration file
+# Here you configur the plugin to your likings
+
+# Message name color - Sets the color for the name of the player in the death message
+message.nameColor: '&3'
+
+# Message color - Sets the color for the death message(excluding the names of players)
+message.color: '&4'
+
+# Message color dead only - Wither the name color should apply to the name of the player that died only(true) or to any player name in the death message(false)
+message.colorDeadOnly: true

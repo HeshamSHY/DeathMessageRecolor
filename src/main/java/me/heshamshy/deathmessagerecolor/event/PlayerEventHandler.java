@@ -36,10 +36,10 @@ public class PlayerEventHandler implements Listener {
         this.plugin = plugin;
 
         NAME_COLOR = ChatColor.getByChar(
-                plugin.getConfig().getString("message.nameColor")
+                plugin.getConfig().getString("message.nameColor").substring(1)
         );
         MESSAGE_COLOR = ChatColor.getByChar(
-                plugin.getConfig().getString("message.color")
+                plugin.getConfig().getString("message.color").substring(1)
         );
     }
 

@@ -60,14 +60,14 @@ public class PlayerEventHandler implements Listener {
 
         if (colorDeadOnly) {
 
-            for (String messageArg : message.split(" ")) {
+            for (String messageArg : message.split("\\s")) {
                 if (messageArg.equals(player.getName())) messageToSend.append(ChatColor.RESET).append(NAME_COLOR).append(messageArg);
                 else messageToSend.append(ChatColor.RESET).append(MESSAGE_COLOR).append(messageArg);
             }
 
         } else {
 
-            for (String messageArg : message.split(" ")) {
+            for (String messageArg : message.split("\\s")) {
 
                 boolean isPlayerName = false;
                 for (Player serverPlayer : plugin.getServer().getOnlinePlayers()) {

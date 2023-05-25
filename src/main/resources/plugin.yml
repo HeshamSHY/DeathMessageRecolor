@@ -4,4 +4,3 @@ main: me.heshamshy.deathmessagerecolor.DeathMessageRecolor
 authors: [HeshamSHY]
 description: Simple plugin that allows user to recolor death messages.
 prefix: "[DeathMessageRecolor]"
-api-version: "1.12"
